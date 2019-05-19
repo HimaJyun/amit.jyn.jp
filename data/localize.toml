@@ -1,0 +1,24 @@
+published = "投稿日時"
+updated = "更新日時"
+author = "投稿者"
+
+commit = "コミット"
+change = "変更履歴"
+subject = "件名"
+
+prev = "次"
+next = "前"
+readmore = "続きを読む→"
+
+category = "カテゴリ"
+tag = "タグ"
+tagList = "タグリスト"
+categoryList = "カテゴリリスト"
+tagPostList = "「{{name}}」タグの投稿一覧"
+categoryPostList = "「{{name}}」カテゴリの投稿一覧"
+
+[categories]
+    example = "例"
+
+[tags]
+    example = "例"

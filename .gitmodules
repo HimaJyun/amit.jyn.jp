@@ -1,0 +1,3 @@
+[submodule "themes/summit"]
+	path = themes/summit
+	url = https://github.com/HimaJyun/Summit.git
