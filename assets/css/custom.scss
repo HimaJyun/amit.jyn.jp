@@ -1,0 +1,51 @@
+.amit-tips {
+    border: dashed 0.1rem $font-color;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1em;
+
+    &-title {
+        border-bottom: solid 0.1rem #aaa;
+        padding-left: 1rem;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+.amit-status {
+    &-online {
+        color: green;
+        font-weight: bold;
+    }
+    &-offline {
+        color: red;
+        font-weight: bold;
+    }
+    &-player img {
+        margin: 0.3rem;
+    }
+}
+
+#amit-days {
+    width: 14rem;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    background-color: #7fcfe2;
+    border-radius: 2rem;
+    .amit-days-count {
+        font-size: 2.4rem;
+    }
+}
+
+.amit-banner {
+    text-align: center;
+}
+
+.amit-header-image {
+    text-align: center;
+    margin-top: 2.5rem;
+}

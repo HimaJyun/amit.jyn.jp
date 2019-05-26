@@ -1,0 +1,75 @@
+baseURL = "https://amit.jyn.jp/"
+languageCode = "ja"
+hasCJKLanguage = true
+title = "AMiT"
+theme = "summit"
+enableRobotsTXT = true
+enableGitInfo = true
+
+[blackfriday]
+    smartypants = false
+
+[params]
+    address = "mc.jyn.jp"
+    version = "1.14.1"
+
+    author = "HimaJyun"
+    tocMove = true
+    tocTitle = "目次"
+
+    image = "/ogp.png"
+    catchphrase = "『貴方の創造』が『世界を創る』"
+    footer = "{{catchphrase}}<br>&copy; 2014-{{year}} <a href=\"/\">AMiT</a>"
+
+[params.pageinfo]
+    commit = "<a href=\"https://github.com/HimaJyun/amit.jyn.jp/commit/{{hash}}\">{{hash}}</a>"
+    change = "<a href=\"https://github.com/HimaJyun/amit.jyn.jp/commits/master/content/{{file}}\">GitHubで見る</a>"
+
+[[params.navigation.header]]
+    text = "はじめての方へ"
+    page = "/tutorial/index.md"
+[[params.navigation.header]]
+    text = "マップ"
+    link = "/dynmap/"
+[[params.navigation.header]]
+    page = "/rule.md"
+[[params.navigation.header]]
+    text = "BBS"
+    link = "/bbs/"
+[[params.navigation.header]]
+    text = "コマンド"
+    page = "/command/index.md"
+
+[[params.navigation.sidebar]]
+    title = "生活情報"
+    [[params.navigation.sidebar.item]]
+        page = "/shop-price.md"
+    [[params.navigation.sidebar.item]]
+        page = "/command/index.md"
+    [[params.navigation.sidebar.item]]
+        page = "/vote-bonus.md"
+    [[params.navigation.sidebar.item]]
+        page = "/custom-drop.md"
+[[params.navigation.sidebar]]
+    title = "サーバー情報"
+    [[params.navigation.sidebar.item]]
+        page = "/rule.md"
+    [[params.navigation.sidebar.item]]
+        page = "/faq.md"
+    [[params.navigation.sidebar.item]]
+        page = "/plugin.md"
+[[params.navigation.sidebar]]
+    title = "情報交換"
+    [[params.navigation.sidebar.item]]
+        text = "公式BBS"
+        link = "/bbs/"
+[[params.navigation.sidebar]]
+    title = "その他の情報"
+    [[params.navigation.sidebar.item]]
+        page = "/update.md"
+    [[params.navigation.sidebar.item]]
+        text = "お問い合わせ"
+        link = "https://jyn.jp/contact-us/"
+    [[params.navigation.sidebar.item]]
+        text = "JapanMinecraftServer"
+        link = "https://minecraft.jp/servers/53d3f8ee4ddda15fb80041a7"

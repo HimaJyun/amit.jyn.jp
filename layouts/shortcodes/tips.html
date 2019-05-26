@@ -1,0 +1,6 @@
+{{- $title := .Get "title" | default (.Get 0) -}}
+
+<div class="amit-tips">
+    {{- with $title -}}<p class="amit-tips-title">{{- . -}}</p>{{- end -}}
+    {{- .Inner | markdownify -}}
+</div>
