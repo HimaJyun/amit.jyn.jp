@@ -1,8 +1,8 @@
 {
     "use strict";
-    const element = document.getElementById("amit-status");
 
     function updateStatus(json = null) {
+        const element = document.getElementById("amit-status");
         console.log(json);
         while(element.firstChild) {
             element.removeChild(element.firstChild);
@@ -85,7 +85,7 @@
             }
         })
         .then(obj => updateStatus(obj))
-        .catch(_ => updateStatus(null))
+        .catch(_ => updateStatus(null));
     }
     getStatus();
 }
