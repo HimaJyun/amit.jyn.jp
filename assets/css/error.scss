@@ -1,0 +1,67 @@
+@charset "utf-8";
+// エラーページ用、実際にはインライン化して使用される。
+
+html {
+    font-size: 62.5%;
+}
+
+html, body, main, div, span, h1, h2, p, ol, ul, li,a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    line-height: 1.4;
+    font-size: 14px;
+    font-size: 1.4em;
+    color: #444;
+    background-color: #f2f2f2;
+    font-family: 'Hiragino Kaku Gothic ProN','Lucida Grande',Meiryo, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+// ボックス中央揃え
+html, body, main {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+// リンク色
+a {
+    color: #005ead;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e60000;
+    text-decoration: underline;
+}
+
+// ここからデザイン
+#box {
+    margin: 0 1rem;
+}
+
+h2, p, ul {
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    margin-left: 2em;
+}
+
+p {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
