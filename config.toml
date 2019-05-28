@@ -65,6 +65,8 @@ enableGitInfo = true
     [[params.navigation.sidebar.item]]
         text = "公式BBS"
         link = "/bbs/"
+    [[params.navigation.sidebar.item]]
+        page = "/edit/index.md"
 [[params.navigation.sidebar]]
     title = "その他の情報"
     [[params.navigation.sidebar.item]]
