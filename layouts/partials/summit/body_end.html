@@ -1,5 +1,7 @@
 {{- $js := slice -}}
 {{- $js = $js | append (resources.Get "js/days-counter.js") -}}
-{{- $js = $js | append (resources.Get "js/server-status.js") -}}
+{{- if not .Site.IsServer -}}
+    {{- $js = $js | append (resources.Get "js/server-status.js") -}}
+{{- end -}}
 {{- $js = $js | resources.Concat "js/script.js" | minify | fingerprint -}}
 <script async src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>

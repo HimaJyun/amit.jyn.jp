@@ -58,6 +58,8 @@ enableGitInfo = true
         page = "/faq.md"
     [[params.navigation.sidebar.item]]
         page = "/plugin.md"
+    [[params.navigation.sidebar.item]]
+        page = "/known-issues.md"
 [[params.navigation.sidebar]]
     title = "情報交換"
     [[params.navigation.sidebar.item]]
