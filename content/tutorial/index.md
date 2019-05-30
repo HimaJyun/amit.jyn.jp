@@ -185,16 +185,16 @@ Job以外でアミトを得る方法も存在します。
 ショップを作成するためには、チェストが必要です。
 
 お店の作成はとても簡単です、最初に、チェストを設置して下さい。  
-![tutorial-017](/content/command/nakashi0131_shop_001.png?20190531)
+![tutorial-017](content/command/nakashi0131_shop_001.png?20190531)
 
 そして、設置したチェストの中に販売したい物を入れます。  
-![tutorial-018](/content/command/nakashi0131_shop_002.png?20190531)
+![tutorial-018](content/command/nakashi0131_shop_002.png?20190531)
 
 最後にコマンド欄で`/shop create [一度に売買する個数] [売値] [買値]`を実行します。
 ショップにしたいチェストを15秒以内に叩けばショップができ上がります。
 
 以下の例は、64個の丸石を150アミトで販売する場合の記入例です。  
-![tutorial-019](/content/command/nakashi0131_shop_003.png?20190531)
+![tutorial-019](content/command/nakashi0131_shop_003.png?20190531)
 
 他人が設置しているお店とやり取りする時は、購入が「右クリック」、売却が「左クリック」です。
 
