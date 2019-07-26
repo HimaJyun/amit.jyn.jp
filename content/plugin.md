@@ -13,10 +13,8 @@ AMiTサーバで利用されているプラグインです。
 
 |プラグイン名|説明|自作|
 |------------|----|:--:|
-|AMiComTax|コマンドに課税する|YES|
 |AMiHome|ホーム機能を追加する|YES|
 |AMiTCommonPlugin|プラグインにするほどでもない機能をまとめて実装|YES|
-|BuyBuyRegion|WorldGuard保護領域の売り買いを実装|YES|
 |[ByeByeWither](https://e-craft.io/bukkit/plugin/byebyewither/)|特定ワールド以外でのウィザー召喚を無効化|YES|
 |[ChestSafe](https://e-craft.io/bukkit/plugin/chestsafe/)|チェストやシュルカーボックスを保護します|YES|
 |ChestShop|チェストでショップを作成出来る様にする|NO|
@@ -44,3 +42,5 @@ AMiTサーバで利用されているプラグインです。
 |WorldEdit|地形の編集を追加する|NO|
 |WorldGuard|領域保護機能を実装する|NO|
 |[Zabbigot](https://e-craft.io/bukkit/plugin/zabbigot/)|サーバ監視用|YES|
+
+<!--|BuyBuyRegion|WorldGuard保護領域の売り買いを実装|YES|-->
