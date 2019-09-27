@@ -9,15 +9,16 @@ AMiTサーバで利用されているプラグインです。
 
 自作マークが付いている物は自作プラグインですので使い方などお気軽にどうぞ。
 
-リンクはより詳しい使い方を記載したページに繋がっています。更に詳しい使い方を知りたい方向け。
+リンクはより詳しい使い方を記載したページに繋がっています。さらに詳しい使い方を知りたい方向け。
 
 |プラグイン名|説明|自作|
 |------------|----|:--:|
 |AMiHome|ホーム機能を追加する|YES|
 |AMiTCommonPlugin|プラグインにするほどでもない機能をまとめて実装|YES|
+|AutoPermission|時間経過でランクアップ|YES|
 |[ByeByeWither](https://e-craft.io/bukkit/plugin/byebyewither/)|特定ワールド以外でのウィザー召喚を無効化|YES|
 |[ChestSafe](https://e-craft.io/bukkit/plugin/chestsafe/)|チェストやシュルカーボックスを保護します|YES|
-|ChestShop|チェストでショップを作成出来る様にする|NO|
+|ChestShop|チェストでショップを作成できるようにする|NO|
 |CoreProtect|ユーザのアクションログ、ロールバックを実装|NO|
 |DropCustomizer|ドロップアイテムの追加|YES|
 |[Dynmap](https://e-craft.io/bukkit/plugin/dynmap/)|Webマップを実装する|NO|
@@ -30,9 +31,8 @@ AMiTサーバで利用されているプラグインです。
 |MCBans|他鯖とのBAN情報を共有する機能を実装|NO|
 |MultiWorld|複数世界を扱える様にする|NO|
 |[NuVotifier](https://e-craft.io/bukkit/plugin/nuvotifier/)|投票機能を実装する|NO|
-|OnTime|接続時間に応じて様々なボーナスを付与|NO|
-|ShopChest|チェストでショップを作成出来る様にする|NO|
-|Stargate|ワープゲートを作成出来る様にする|NO|
+|ShopChest|チェストでショップを作成できるようにする|NO|
+|Stargate|ワープゲートを作成できるようにする|NO|
 |StartSupporter|初ログインユーザにアイテムを配布する|YES|
 |SunSign|看板の日本語化機能を追加|YES|
 |[ThisWorld](https://e-craft.io/bukkit/plugin/thisworld/)|異世界へ移動した際に世界名を表示する|YES|
