@@ -40,7 +40,7 @@ AMiTサーバで利用されているプラグインです。
 |VoteThank|投票を行ったユーザにアイテムを配布する|YES|
 |WorldBorder|世界の移動距離に制限を掛ける|NO|
 |WorldEdit|地形の編集を追加する|NO|
-|WorldGuard|領域保護機能を実装する|NO|
 |[Zabbigot](https://e-craft.io/bukkit/plugin/zabbigot/)|サーバ監視用|YES|
 
+<!--|WorldGuard|領域保護機能を実装する|NO|-->
 <!--|BuyBuyRegion|WorldGuard保護領域の売り買いを実装|YES|-->
