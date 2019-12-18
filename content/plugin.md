@@ -38,9 +38,9 @@ AMiTサーバで利用されているプラグインです。
 |[ThisWorld](https://e-craft.io/bukkit/plugin/thisworld/)|異世界へ移動した際に世界名を表示する|YES|
 |Vault|各種経済プラグインの差異を吸収するAPIを実装|NO|
 |VoteThank|投票を行ったユーザにアイテムを配布する|YES|
-|WorldBorder|世界の移動距離に制限を掛ける|NO|
 |WorldEdit|地形の編集を追加する|NO|
+|WorldGuard|領域保護機能を実装する|NO|
 |[Zabbigot](https://e-craft.io/bukkit/plugin/zabbigot/)|サーバ監視用|YES|
 
-<!--|WorldGuard|領域保護機能を実装する|NO|-->
+<!--|WorldBorder|世界の移動距離に制限を掛ける|NO|-->
 <!--|BuyBuyRegion|WorldGuard保護領域の売り買いを実装|YES|-->
