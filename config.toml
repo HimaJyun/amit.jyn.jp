@@ -15,7 +15,7 @@ enableGitInfo = true
 
 [params]
     address = "mc.jyn.jp"
-    version = "1.15.1"
+    version = "1.15.2"
 
     author = "HimaJyun"
     tocMove = true
