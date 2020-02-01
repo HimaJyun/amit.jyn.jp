@@ -35,6 +35,18 @@ AMiHomeは一般的なHome機能を実装するプラグインです。
 |/home list|登録したホーム地点を表示します。|全員|
 |/home help|AMiHomeコマンドの使い方が表示されます|全員|
 
+{{<tips>}}
+/spawn [世界名]で移動できる世界は以下の通りです。
+
+|世界名|行き先|
+|------------|:--:|
+|resource|資源界|
+|resource_end|資源エンド|
+|resource_nether|資源ネザー|
+|world_end|通常エンド|
+|world_nether|通常ネザー|
+{{</tips>}}
+
 ### WorldGuard
 土地の保護を行うプラグインです。
 
