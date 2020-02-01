@@ -32,7 +32,6 @@ AMiTサーバで利用されているプラグインです。
 |MultiWorld|複数世界を扱える様にする|NO|
 |[NuVotifier](https://e-craft.io/bukkit/plugin/nuvotifier/)|投票機能を実装する|NO|
 |ShopChest|チェストでショップを作成できるようにする|NO|
-|Stargate|ワープゲートを作成できるようにする|NO|
 |StartSupporter|初ログインユーザにアイテムを配布する|YES|
 |SunSign|看板の日本語化機能を追加|YES|
 |[ThisWorld](https://e-craft.io/bukkit/plugin/thisworld/)|異世界へ移動した際に世界名を表示する|YES|
