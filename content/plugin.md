@@ -24,6 +24,7 @@ AMiTサーバで利用されているプラグインです。
 |[Dynmap](https://e-craft.io/bukkit/plugin/dynmap/)|Webマップを実装する|NO|
 |Dynmap-WorldGuard|DynmapにWorldGuardの領域を表示させる|NO|
 |EbiFly|時間課金制の飛行機能を実装|YES|
+|ImmutableSpawner|MOB卵によるスポナーの変更を阻止|YES|
 |[Jecon](https://e-craft.io/bukkit/plugin/jecon/)|経済の概念を追加する|YES|
 |Jobs|職業の概念を追加する|NO|
 |LuckPerms|権限を管理する|NO|
