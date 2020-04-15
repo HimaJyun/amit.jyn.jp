@@ -1,0 +1,24 @@
+User-agent: *
+Disallow:
+
+# SEO
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# AspiegelBot is idiot
+User-agent: AspiegelBot
+Disallow: /bbs/
+
+Sitemap: {{ .Sitemap.Filename | default "sitemap.xml" | absURL }}
