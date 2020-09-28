@@ -45,6 +45,20 @@ AMiHomeは一般的なHome機能を実装するプラグインです。
 |resource_nether|資源ネザー|
 |world_end|通常エンド|
 |world_nether|通常ネザー|
+|world|メインマップ|
+{{</tips>}}
+
+{{<tips>}}
+/sethome [名前]で登録できる個数は以下の通りです。
+
+|権限名|個数|
+|------------|:--:|
+|お初| 0個|
+|住民| 3個|
+|やり込み| 6個|
+
+/homeや/sethomeで名前を入力せずに実行した際は「default」として扱われます。  
+「default」は登録数にカウントされません。
 {{</tips>}}
 
 ### WorldGuard
