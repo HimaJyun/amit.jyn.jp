@@ -44,3 +44,5 @@ AMiTサーバで利用されているプラグインです。
 
 <!--|WorldBorder|世界の移動距離に制限を掛ける|NO|-->
 <!--|BuyBuyRegion|WorldGuard保護領域の売り買いを実装|YES|-->
+
+他サーバー管理人向け: 一部の自作プラグインは当サーバー管理人の[GitHub](https://github.com/HimaJyun)で配布しています。解説などは[動かす知識](https://e-craft.io/)からどうぞ。
