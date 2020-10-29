@@ -47,9 +47,11 @@ enableGitInfo = true
 [[params.navigation.sidebar]]
     title = "生活情報"
     [[params.navigation.sidebar.item]]
-        page = "/shop-price.md"
-    [[params.navigation.sidebar.item]]
         page = "/command/index.md"
+    [[params.navigation.sidebar.item]]
+        page = "/tt/index.md"
+    [[params.navigation.sidebar.item]]
+        page = "/shop-price.md"
     [[params.navigation.sidebar.item]]
         page = "/vote-bonus.md"
     [[params.navigation.sidebar.item]]
