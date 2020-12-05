@@ -5,8 +5,9 @@ date: "2019-05-21T06:30:06+09:00"
 #categories:
 #tags:
 author:
-  - HimaJyun
-  - NAKASHI0131
+ - HimaJyun
+ - NAKASHI0131
+ - "__M0yqshi__"
 ---
 
 はじめまして、AMiTサーバへようこそ。

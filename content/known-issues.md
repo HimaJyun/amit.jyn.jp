@@ -4,6 +4,9 @@ date: "2019-05-28T16:20:30+09:00"
 #description:
 #categories:
 #tags:
+author:
+ - "HimaJyun"
+ - "__M0yqshi__"
 ---
 
 AMiTサーバーではプラグインを利用した機能の拡張を行っています。

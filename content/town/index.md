@@ -5,10 +5,10 @@ date: "2020-11-26T23:22:16+09:00"
 #categories:
 #tags:
 author:
-- "HimaJyun"
-- "Hayate_0927"
-- "NAKASHI0131"
-- "__M0yqshi__"
+ - "HimaJyun"
+ - "Hayate_0927"
+ - "NAKASHI0131"
+ - "__M0yqshi__"
 ---
 
 AMiTサーバには、プレイヤーのみなさんが運営している町があります。
