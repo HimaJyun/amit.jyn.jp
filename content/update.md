@@ -10,6 +10,12 @@ toc: false
 過去のお知らせなど。
 
 ## 2020
+
+### 12/26
+MoreEnjoyに一部の機能を統合、これに伴いAMiTCommonPlugin、ThisWorld、ByeByeWither、SunSignを廃止しました。
+
+MoreEnjoyの新機能によりアイテムと記入済みの本を金床で合成して説明を付けることが可能になりました。
+
 ### 07/19
 資源マップを再生産しました
 
