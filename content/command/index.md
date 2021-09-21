@@ -166,30 +166,30 @@ MoreEnjoyは便利機能やお楽しみ機能を追加するプラグインで�
 色を付ける際には次の色コードが使えます。
 
 {{<tips "色コード">}}
-- &0→<span style="color: rgb(0, 0, 0);">黒</span>
-- &1→<span style="color: rgb(0, 0, 170);">暗い青</span>
-- &2→<span style="color: rgb(0, 170, 0);">暗い緑</span>
-- &3→<span style="color: rgb(0, 170, 170);">暗い水色</span>
-- &4→<span style="color: rgb(170, 0, 0);">暗い赤</span>
-- &5→<span style="color: rgb(170, 0, 170);">紫</span>
-- &6→<span style="color: rgb(255, 170, 0);">金</span>
-- &7→<span style="color: rgb(170, 170, 170);">グレー</span>
-- &8→<span style="color: rgb(85, 85, 85);">ダークグレー</span>
-- &9→<span style="color: rgb(85, 85, 255);">青</span>
-- &a→<span style="color: rgb(85, 255, 85);">緑</span>
-- &b→<span style="color: rgb(85, 255, 255);">水色</span>
-- &c→<span style="color: rgb(255, 85, 85);">赤色</span>
-- &d→<span style="color: rgb(255, 85, 255);">明るい紫</span>
-- &e→<span style="color: rgb(255, 255, 85); background-color: rgb(0, 0, 0);">黄色</span>
-- &f→<span style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">白</span>
-- &k→動く文字
-- &l→**太字**
-- &m→~~打ち消し線~~
-- &n→<u>下線</u>
-- &o→<em>斜体 (例: aaa)</em> <!-- サイト上で使用しているフォントの関係で日本語には効かない -->
-- &r→色コードをリセット
+- &amp;0→<span style="color: rgb(0, 0, 0);">黒</span>
+- &amp;1→<span style="color: rgb(0, 0, 170);">暗い青</span>
+- &amp;2→<span style="color: rgb(0, 170, 0);">暗い緑</span>
+- &amp;3→<span style="color: rgb(0, 170, 170);">暗い水色</span>
+- &amp;4→<span style="color: rgb(170, 0, 0);">暗い赤</span>
+- &amp;5→<span style="color: rgb(170, 0, 170);">紫</span>
+- &amp;6→<span style="color: rgb(255, 170, 0);">金</span>
+- &amp;7→<span style="color: rgb(170, 170, 170);">グレー</span>
+- &amp;8→<span style="color: rgb(85, 85, 85);">ダークグレー</span>
+- &amp;9→<span style="color: rgb(85, 85, 255);">青</span>
+- &amp;a→<span style="color: rgb(85, 255, 85);">緑</span>
+- &amp;b→<span style="color: rgb(85, 255, 255);">水色</span>
+- &amp;c→<span style="color: rgb(255, 85, 85);">赤色</span>
+- &amp;d→<span style="color: rgb(255, 85, 255);">明るい紫</span>
+- &amp;e→<span style="color: rgb(255, 255, 85); background-color: rgb(0, 0, 0);">黄色</span>
+- &amp;f→<span style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">白</span>
+- &amp;k→動く文字
+- &amp;l→**太字**
+- &amp;m→~~打ち消し線~~
+- &amp;n→<u>下線</u>
+- &amp;o→<em>斜体 (例: aaa)</em> <!-- サイト上で使用しているフォントの関係で日本語には効かない -->
+- &amp;r→色コードをリセット
 - \#(3桁か6桁の16進数)→Webカラーコード (例: \#00aaff, \#0af)
-- &や\#の前に&→色変換を無効化 (例: &&a, &\#000)
+- &amp;や\#の前に&amp;→色変換を無効化 (例: &amp;&amp;a, &amp;\#000)
 {{</tips>}}
 
 ## 中級編
@@ -246,7 +246,7 @@ WorldGuardの領域内はこの機能に加えて、WorldGuardでも保護され
 
 自分の街などを調査して20を下回るようであれば対策をお願いします。
 
-### ShopChest
+### ChestShop
 チェストをショップにして売買できるプラグインです。
 
 {{<tips "お店の作成">}}
@@ -261,39 +261,39 @@ WorldGuardの領域内はこの機能に加えて、WorldGuardでも保護され
 そして、設置したチェストの中に販売したい物を入れます。  
 ![Tutorial_038](nakashi0131_shop_002.png?20190529)
 
-次に、売りたいアイテムを持ちます。
-その後、コマンド欄で`/shop create [一度に売買する個数] [売値] [買値]`を実行します。
-ショップにしたいチェストを15秒以内に叩けばショップができ上がります。
+チェストの周囲1ブロック以内に看板を設置し  
 
-一度に売買する個数:  
-いわゆる、「まとめ売り」、「まとめ買い」です。  
-指定した個数だけまとめて取引されます。  
-良く分からない場合は「1」として、1個ずつ取り扱うと良いでしょう。
+1.  空白
+2.  1度に売買する個数
+3.  売るならS、買うならBとその値段
+4.  アイテムID
 
-価格:  
-販売、買取のどちらか専用にする場合は使わない方の価格を0に設定します。
+と、記入して下さい。
 
-例:
+アイテムIDは「/iteminfo」コマンドで確認できます。
 
-1. 10アミトで販売 -> `/shop create [一度に販売する個数] 10 0`
-2. 10アミトで買取 -> `/shop create [一度に買い取る個数] 0 10`
-3. 10アミトで販売、5アミトで買取 -> `/shop create [一度に売買する個数] 10 5`
+例: 石1個を1アミトで販売する
 
-丸石を売買する場合の例:  
-64個の丸石を150アミトで販売する  
-![Tutorial_039](nakashi0131_shop_003.png?20190529)
+1. 
+2. 1
+3. B 1
+4. Stone
 
-64個の丸石を100アミトで買い取る  
-![ChestShop_004](nakashi0131_shop_004.png?20190529) 
+例: 石64個を10アミトで買い取る
 
-売買の仕方
+1. 
+2. 64
+3. S 10
+4. Stone
 
-たとえば、64個の丸石を150アミトで販売、100アミトで買取しているお店があるとします。  
-![ChestShop_004](nakashi0131_shop_005.png?20190529)  
-**右**クリックする事で商品を購入します。  
-![ChestShop_005](nakashi0131_shop_006.png?20190529)  
-**左**クリックする事で商品を売却します。  
-![ChestShop_006](nakashi0131_shop_007.png?2019059)  
+例: 土256個(4スタック)を10アミトで販売し、1アミトで買い取る
+
+1. 
+2. 256
+3. B 10:10 S
+4. Dirt
+
+他人が設置しているお店とやり取りする時は、購入が「右クリック」、売却が「左クリック」です。
 超かんたん！
 {{</tips>}}
 
