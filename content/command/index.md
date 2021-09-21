@@ -166,30 +166,30 @@ MoreEnjoyは便利機能やお楽しみ機能を追加するプラグインで�
 色を付ける際には次の色コードが使えます。
 
 {{<tips "色コード">}}
-- &amp;0→<span style="color: rgb(0, 0, 0);">黒</span>
-- &amp;1→<span style="color: rgb(0, 0, 170);">暗い青</span>
-- &amp;2→<span style="color: rgb(0, 170, 0);">暗い緑</span>
-- &amp;3→<span style="color: rgb(0, 170, 170);">暗い水色</span>
-- &amp;4→<span style="color: rgb(170, 0, 0);">暗い赤</span>
-- &amp;5→<span style="color: rgb(170, 0, 170);">紫</span>
-- &amp;6→<span style="color: rgb(255, 170, 0);">金</span>
-- &amp;7→<span style="color: rgb(170, 170, 170);">グレー</span>
-- &amp;8→<span style="color: rgb(85, 85, 85);">ダークグレー</span>
-- &amp;9→<span style="color: rgb(85, 85, 255);">青</span>
-- &amp;a→<span style="color: rgb(85, 255, 85);">緑</span>
-- &amp;b→<span style="color: rgb(85, 255, 255);">水色</span>
-- &amp;c→<span style="color: rgb(255, 85, 85);">赤色</span>
-- &amp;d→<span style="color: rgb(255, 85, 255);">明るい紫</span>
-- &amp;e→<span style="color: rgb(255, 255, 85); background-color: rgb(0, 0, 0);">黄色</span>
-- &amp;f→<span style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">白</span>
-- &amp;k→動く文字
-- &amp;l→**太字**
-- &amp;m→~~打ち消し線~~
-- &amp;n→<u>下線</u>
-- &amp;o→<em>斜体 (例: aaa)</em> <!-- サイト上で使用しているフォントの関係で日本語には効かない -->
-- &amp;r→色コードをリセット
-- \#(3桁か6桁の16進数)→Webカラーコード (例: \#00aaff, \#0af)
-- &amp;や\#の前に&amp;→色変換を無効化 (例: &amp;&amp;a, &amp;\#000)
+- &0→<span style="color: rgb(0, 0, 0);">黒</span>
+- &1→<span style="color: rgb(0, 0, 170);">暗い青</span>
+- &2→<span style="color: rgb(0, 170, 0);">暗い緑</span>
+- &3→<span style="color: rgb(0, 170, 170);">暗い水色</span>
+- &4→<span style="color: rgb(170, 0, 0);">暗い赤</span>
+- &5→<span style="color: rgb(170, 0, 170);">紫</span>
+- &6→<span style="color: rgb(255, 170, 0);">金</span>
+- &7→<span style="color: rgb(170, 170, 170);">グレー</span>
+- &8→<span style="color: rgb(85, 85, 85);">ダークグレー</span>
+- &9→<span style="color: rgb(85, 85, 255);">青</span>
+- &a→<span style="color: rgb(85, 255, 85);">緑</span>
+- &b→<span style="color: rgb(85, 255, 255);">水色</span>
+- &c→<span style="color: rgb(255, 85, 85);">赤色</span>
+- &d→<span style="color: rgb(255, 85, 255);">明るい紫</span>
+- &e→<span style="color: rgb(255, 255, 85); background-color: rgb(0, 0, 0);">黄色</span>
+- &f→<span style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">白</span>
+- &k→動く文字
+- &l→**太字**
+- &m→~~打ち消し線~~
+- &n→<u>下線</u>
+- &o→<em>斜体 (例: aaa)</em> <!-- サイト上で使用しているフォントの関係で日本語には効かない -->
+- &r→色コードをリセット
+- \#(3桁か6桁の16進数)→Webカラーコード (例: `#00aaff`, `#0af`)
+- &や\#の前に&→色変換を無効化 (例: `&&a`, `&#000`)
 {{</tips>}}
 
 ## 中級編
