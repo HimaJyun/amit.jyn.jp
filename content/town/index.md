@@ -97,7 +97,7 @@ AMiTサーバには、プレイヤーのみなさんが運営している町が�
  <!-- https://amit.jyn.jp/bbs/viewtopic.php?f=15&t=992 -->
 
 ### ender_stの村
-![ender_stの村](ender_stnomura.png?20210114)
+![ender_stの村](ender_st_town.png?20220510)
 |項目|説明|
 |:--:|--|
 |座標 (XYZ)|1911 63 -987|
